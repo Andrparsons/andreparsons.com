@@ -21,6 +21,12 @@ const IndexPage = () => (
         <Image />
       </div>
     </div>
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 );
