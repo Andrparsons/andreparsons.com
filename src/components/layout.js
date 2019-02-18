@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <footer>
           <span className="footerInfo">
             © {new Date().getFullYear()}, Built with

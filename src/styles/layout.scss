@@ -1,4 +1,7 @@
+@import "config";
+@import "normalize";
 @import "font";
+@import "header";
 
 html {
   box-sizing: border-box;
@@ -108,4 +111,21 @@ h6 {
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main-content {
+  margin-top: 60px;
+  padding: 60px 0 0;
+  min-height: calc(100vh - 210px);
+}
+
+@media (min-width: 700px) {
+  #main-content {
+    margin-top: 70px;
+    padding: 80px 0 0;
+  }
 }
