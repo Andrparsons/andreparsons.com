@@ -29,8 +29,8 @@ const IndexPage = () => (
         and valuable applications and websites. I'm currently looking for work.
       </p>
       <p>
-        I believe that everyone should be the master of thier own online
-        presense and the web should be as diverse as the real world. I created
+        I believe that everyone should be the master of their own online
+        presence and the web should be as diverse as the real world. I created
         this site to document what I've learned and created in one central
         location so I can share it with the world.
       </p>
@@ -38,12 +38,6 @@ const IndexPage = () => (
         <Image />
       </div>
     </div>
-    <h1>h1</h1>
-    <h2>h2</h2>
-    <h3>h3</h3>
-    <h4>h4</h4>
-    <h5>h5</h5>
-    <h6>h6</h6>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 );
