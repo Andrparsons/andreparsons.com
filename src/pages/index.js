@@ -7,7 +7,18 @@ import SEO from "../components/seo";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Home"
+      keywords={[
+        `gatsby`,
+        `application`,
+        `react`,
+        `portfolio`,
+        `photography`,
+        `Andre Parsons`,
+        `Web Developer`
+      ]}
+    />
     <div id="about">
       <h1>Andre Parsons</h1>
       <h2>Web Developer, Programmer & Photographer</h2>
@@ -16,6 +27,12 @@ const IndexPage = () => (
         An aspiring web developer and amateur photographer who loves to show off
         his work. I create things with code and turn them into useful, beautiful
         and valuable applications and websites. I'm currently looking for work.
+      </p>
+      <p>
+        I believe that everyone should be the master of thier own online
+        presense and the web should be as diverse as the real world. I created
+        this site to document what I've learned and created in one central
+        location so I can share it with the world.
       </p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
