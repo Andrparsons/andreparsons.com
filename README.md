@@ -1,4 +1,4 @@
-#Andre Parsons - personal website
+# Andre Parsons - personal website
 
 Built with Gatsby - I'll be documenting and deploying here
 
