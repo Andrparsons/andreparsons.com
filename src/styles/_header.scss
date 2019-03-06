@@ -117,7 +117,8 @@
   }
 
   &.close {
-    transform: rotate(90deg);
+    transform: scaleY(0);
+    transition: 0.2s ease-in-out;
   }
 }
 
@@ -147,7 +148,8 @@
         }
 
         a:hover {
-          background: $nav-highlight;
+          background: $background-color;
+          color: $text-color-brighter;
         }
       }
 
@@ -157,7 +159,8 @@
         }
 
         a:hover {
-          background: $nav-highlight;
+          background: $background-color;
+          color: $text-color-brighter;
         }
       }
     }
