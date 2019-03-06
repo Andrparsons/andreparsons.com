@@ -24,9 +24,9 @@ const IndexPage = () => (
       <h2>Web Developer, Programmer & Photographer</h2>
       <h3>Who am I?</h3>
       <p>
-        An aspiring web developer and amateur photographer who loves to show off
+        An aspiring web developer and amateur photographer who loves to share
         his work. I create things with code and turn them into useful, beautiful
-        and valuable applications and websites. I'm currently looking for work.
+        and valuable applications and websites.
       </p>
       <p>
         I believe that everyone should be the master of their own online
@@ -34,6 +34,7 @@ const IndexPage = () => (
         this site to document what I've learned and created in one central
         location so I can share it with the world.
       </p>
+      <p>Why, yes I am currently looking for work. Thanks for asking.</p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
