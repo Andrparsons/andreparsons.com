@@ -20,6 +20,15 @@ body {
     Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   line-height: 1.5;
+  font-size: 1rem;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+@media (min-width: 700px) {
+  body {
+    font-size: 1.1rem;
+  }
 }
 
 h1 {
@@ -34,8 +43,9 @@ h1 {
   color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   line-height: 1.1;
+  color: $text-color-brighter;
 }
 h2 {
   margin-left: 0;
@@ -49,8 +59,9 @@ h2 {
   color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 1.5rem;
   line-height: 1.1;
+  color: $text-color-brighter;
 }
 h3 {
   margin-left: 0;
@@ -64,8 +75,9 @@ h3 {
   color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
+  font-size: 1.25rem;
   line-height: 1.1;
+  color: $text-color-brighter;
 }
 h4 {
   margin-left: 0;
@@ -79,8 +91,9 @@ h4 {
   color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.1;
+  color: $text-color-brighter;
 }
 h5 {
   margin-left: 0;
@@ -94,8 +107,9 @@ h5 {
   color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.85028rem;
+  font-size: 1rem;
   line-height: 1.1;
+  color: $text-color-brighter;
 }
 h6 {
   margin-left: 0;
@@ -110,7 +124,29 @@ h6 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
-  line-height: 1.1;
+  line-height: 1;
+  color: $text-color-brighter;
+}
+
+@media (min-width: 700px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.9rem;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  h5 {
+    font-size: 1.3rem;
+  }
+  h6 {
+    font-size: 1.1rem;
+  }
 }
 
 a {
