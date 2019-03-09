@@ -3,7 +3,7 @@
   "private": true,
   "description": "Taking control of my content on the web",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Andre Parsons",
   "dependencies": {
     "gatsby": "^2.0.118",
     "gatsby-image": "^2.0.29",
