@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => (
               onClick={toggle}
             />
             <div className={on ? "links active-links" : "links"}>
-              <Link to="/about">About</Link>
+              <Link to="/">About</Link>
               <Link to="/coding">Coding</Link>
               <Link to="/photos">Photograpy</Link>
               <Link to="/blog">Blog</Link>
