@@ -34,7 +34,12 @@ const IndexPage = () => (
         this site to document what I've learned and created in one central
         location so I can share it with the world.
       </p>
-      <p>Why, yes I am currently looking for work. Thanks for asking.</p>
+      <p>
+        Why, yes I am currently looking for work.{" "}
+        <Link to="/contact" className="link-underline">
+          Thanks for asking.
+        </Link>
+      </p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>

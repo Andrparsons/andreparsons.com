@@ -24,7 +24,13 @@ const Layout = ({ children }) => (
           <span className="footerInfo">
             © {new Date().getFullYear()}, Built with
             {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <a
+              href="https://www.gatsbyjs.org"
+              target="_blank"
+              className="link-underline"
+            >
+              Gatsby
+            </a>
           </span>
           <span className="footerInfo">Made by Andre Parsons</span>
         </footer>

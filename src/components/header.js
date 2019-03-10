@@ -38,9 +38,13 @@ const Header = ({ siteTitle }) => (
         )}
       </Toggle>
       <div className="outsite">
-        <Link to="/about" className="nav-icon">
+        <a
+          href="https://github.com/Andrparsons"
+          className="nav-icon"
+          target="_blank"
+        >
           GH
-        </Link>
+        </a>
       </div>
     </nav>
   </header>
