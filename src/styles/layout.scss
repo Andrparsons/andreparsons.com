@@ -2,6 +2,7 @@
 @import "normalize";
 @import "font";
 @import "header";
+@import "form";
 
 html {
   box-sizing: border-box;
@@ -189,5 +190,9 @@ a {
 
 // about page styling
 #about {
+  @include blog-size;
+}
+
+#contact {
   @include blog-size;
 }

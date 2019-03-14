@@ -1,0 +1,70 @@
+form {
+  margin: 0 0 2rem 0;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  > .fields {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 3em);
+    margin: -1.5em 0 2em -1.5em;
+
+    > .field {
+      flex-grow: 0;
+      flex-shrink: 0;
+      padding: 1.5rem 0 0 1.5rem;
+      width: calc(100% - 1.5rem);
+
+      > input[type="text"],
+      input[type="email"],
+      textarea {
+        appearance: none;
+        border-radius: 0.25rem;
+        background: rgba(255, 255, 255, 0.05);
+        border: solid 1px rgba(255, 255, 255, 0.15);
+        color: inherit;
+        display: block;
+        outline: 0;
+        padding: 0 1rem;
+        text-decoration: none;
+        width: 100%;
+
+        &:focus {
+          border-color: $link-color;
+          box-shadow: 0 0 0 1px $link-color;
+        }
+      }
+
+      input[type="text"],
+      input[type="email"] {
+        height: 3rem;
+      }
+
+      > :last-child {
+        margin-bottom: 0;
+      }
+
+      &.half {
+        width: calc(50% - 0.75rem);
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    > .fields {
+      width: calc(100% + 3rem);
+      margin: -1.5rem 0 2rem -1.5rem;
+
+      > .field {
+        padding: 1.5rem 0 0 1.5rem;
+        width: calc(100% -1.5rem);
+
+        &.half {
+          width: calc(100% - 1.5rem);
+        }
+      }
+    }
+  }
+}
