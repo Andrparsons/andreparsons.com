@@ -38,11 +38,7 @@ const Header = ({ siteTitle }) => (
         )}
       </Toggle>
       <div className="outsite">
-        <a
-          href="https://github.com/Andrparsons"
-          className="nav-icon"
-          target="_blank"
-        >
+        <a href="https://github.com/Andrparsons" className="nav-icon">
           GH
         </a>
       </div>
