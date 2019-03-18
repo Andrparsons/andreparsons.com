@@ -42,11 +42,15 @@
         overflow: hidden;
         white-space: nowrap;
         padding-right: 0.2rem;
-        border-right: 0.2rem solid $text-color-brighter;
         /*typing effect*/
-        animation: typing 1.5s steps(45, end), blink-caret 1s step-end infinite;
+        animation: typing 1.5s steps(45, end);
         animation-fill-mode: forwards;
       }
+
+      .caret {
+        animation: blink-caret 1s step-end infinite;
+      }
+
       .brand-icon {
         display: block;
         max-width: 20px;
@@ -230,9 +234,9 @@
 @keyframes blink-caret {
   from,
   to {
-    border-color: transparent;
+    color: transparent;
   }
   50% {
-    border-color: $text-color;
+    color: $text-color;
   }
 }

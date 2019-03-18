@@ -10,6 +10,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/">
           <span className="brand-icon">></span>
           <span className="active-page">Andre Parsons</span>
+          <span className="caret">|</span>
         </Link>
       </div>
       <Toggle>
