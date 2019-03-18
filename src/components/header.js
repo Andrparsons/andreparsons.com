@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
       <div className="brand">
         <Link to="/">
           <span className="brand-icon">></span>
-          <span className="active">Andre Parsons</span>
+          <span className="active-page">Andre Parsons</span>
         </Link>
       </div>
       <Toggle>

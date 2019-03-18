@@ -37,8 +37,15 @@
     .brand {
       font-weight: 600;
 
-      .active {
+      .active-page {
         margin-left: 0.5rem;
+        overflow: hidden;
+        white-space: nowrap;
+        padding-right: 0.2rem;
+        border-right: 0.2rem solid $text-color-brighter;
+        /*typing effect*/
+        animation: typing 1.5s steps(45, end), blink-caret 1s step-end infinite;
+        animation-fill-mode: forwards;
       }
       .brand-icon {
         display: block;
@@ -207,5 +214,25 @@
         font-size: 1.1rem;
       }
     }
+  }
+}
+
+/*typing effect*/
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: $text-color;
   }
 }
