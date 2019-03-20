@@ -3,6 +3,7 @@ import { navigateTo } from "gatsby-link";
 import Recaptcha from "react-google-recaptcha";
 
 import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
 
@@ -44,6 +45,18 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Layout>
+        <SEO
+          title="Contact"
+          keywords={[
+            `gatsby`,
+            `application`,
+            `react`,
+            `portfolio`,
+            `photography`,
+            `Andre Parsons`,
+            `Web Developer`
+          ]}
+        />
         <div id="contact">
           <h2>Get in touch</h2>
           <p>Intro text to go here when I think of something good</p>

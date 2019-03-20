@@ -2,7 +2,34 @@ module.exports = {
   siteMetadata: {
     title: `Andre Parsons - Web Developer`,
     description: `Andre Parsons is a web developer who's always learning new things. Learn about him and his projects here.`,
-    author: `Andre Parsons`
+    author: `Andre Parsons`,
+    menuLinks: [
+      {
+        name: "Andre Parsons",
+        linkName: "About",
+        link: "/"
+      },
+      {
+        name: "Coding Projects",
+        linkName: "Coding",
+        link: "/coding"
+      },
+      {
+        name: "Photography",
+        linkName: "Photography",
+        link: "/photos"
+      },
+      {
+        name: "My Thoughts",
+        linkName: "Blog",
+        link: "/blog"
+      },
+      {
+        name: "Contact Me",
+        linkName: "Contact",
+        link: "/contact"
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -12,13 +12,18 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            menuLinks {
+              name
+              link
+              linkName
+            }
           }
         }
       }
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header menuLinks={data.site.siteMetadata.menuLinks} />
         <main id="main-content">{children}</main>
         <footer>
           <span className="footerInfo">
